@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <payment>
+            <authorizenetcim>
+                <payment_action>authorize</payment_action>
+                <model>Magerush\AuthorizenetCim\Model\PaymentMethod</model>
+                <active>1</active>
+                <title>Authorize.net CIM</title>
+                <order_status>pending_payment</order_status>
+            </authorizenetcim>
+        </payment>
+    </default>
+</config>
